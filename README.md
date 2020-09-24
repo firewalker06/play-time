@@ -1,24 +1,12 @@
-# README
+# Play Time
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+📅 Play Time is an app to create a timetable for parents to fill in their kids activities.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [x] Setting up Rails
+- [x] Deploy to Heroku
+- [ ] create 7-day table
+- [ ] apply some styles
+- [ ] provide time card
+- [ ] enable drag and drop
+- [ ] each day can have 4-5 cards
+- [ ] printable in daily, weekly
