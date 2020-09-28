@@ -6,7 +6,7 @@
 - [x] Deploy to Heroku
 - [x] create 7-day table
 - [x] apply some styles
-- [ ] provide time card
+- [x] provide time card
 - [ ] enable drag and drop
 - [ ] each day can have 4-5 cards
 - [ ] printable in daily, weekly
