@@ -4,4 +4,13 @@
 -->
 <div class="mx-auto my-5 max-w-sm">
   <%= render "table" %>
+  <%= render "play_cards" %>
 </div>
+
+PlayCards
+  ActionYaml: play_cards.yml
+  Model: PlayCard
+  WelcomeController:
+    @play_cards = PlayCard.all
+  Render: @play_cards
+    _partial: _play_card.html.erb
