@@ -8,12 +8,13 @@
 // </div>
 
 import { Controller } from "stimulus"
-import { Draggable } from "@shopify/draggable";
+import { Droppable } from "@shopify/draggable";
 
 
 export default class extends Controller {
   connect() {
-    console.log(this.element)
-    new Draggable(this.element)
+    new Droppable(this.element, {
+      dropzone: ".dropzone"
+    })
   }
 }
