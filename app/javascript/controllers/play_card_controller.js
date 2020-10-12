@@ -13,8 +13,20 @@ import { Droppable } from "@shopify/draggable";
 
 export default class extends Controller {
   connect() {
-    new Droppable(this.element, {
+    const draggable = new Droppable(this.element, {
       dropzone: ".dropzone"
+    })
+
+    draggable.on("drag:stop", (event) => {
+      let play_card = event.originalSource.cloneNode(true)
+      play_card.classList.remove("draggable--original")
+      play_card.removeAttribute("style")
+
+      event.sourceContainer.querySelectorAll(".dropzone").forEach(element => {
+        if (element.childNodes.length == 4) {
+          element.append(play_card)
+        }
+      });
     })
   }
 }
