@@ -8,5 +8,5 @@
 - [x] apply some styles
 - [x] provide time card
 - [x] enable drag and drop
-- [ ] each day can have 4-5 cards
+- [x] each day can have 4-5 cards
 - [ ] printable in daily, weekly
