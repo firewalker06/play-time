@@ -3,10 +3,11 @@
   Read the documentation to get started: https://tailwindui.com/documentation
 -->
 <div class="flex">
-  <div class="w-1/3 m-2">
+  <div class="w-1/3 m-2 print:w-full">
     <%= render "table" %>
   </div>
-  <div class="w-1/3 m-2" data-controller="play-card">
+  <div class="w-1/3 m-2 print:hidden" data-controller="play-card">
+    <a href="javascript:window.print()" class="text-blue-500 hover:text-blue-700">🖨 Print</a>
     <%= render @play_cards %>
   </div>
 </div>
