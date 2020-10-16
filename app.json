@@ -1,0 +1,6 @@
+{
+  "name": "PlayTime Application",
+  "description": "Play Time is a Rails app for demonstation purpose to create a timetable for parents to fill in their kids activities.",
+  "repository": "https://github.com/firewalker06/play-time",
+  "keywords": ["rails", "tailwindcss", "demo"]
+}

@@ -10,3 +10,5 @@
 - [x] enable drag and drop
 - [x] each day can have 4-5 cards
 - [x] printable in daily, weekly
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
