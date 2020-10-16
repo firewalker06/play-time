@@ -9,4 +9,4 @@
 - [x] provide time card
 - [x] enable drag and drop
 - [x] each day can have 4-5 cards
-- [ ] printable in daily, weekly
+- [x] printable in daily, weekly
