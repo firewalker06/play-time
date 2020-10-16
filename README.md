@@ -1,14 +1,7 @@
 # Play Time
 
-📅 Play Time is an app to create a timetable for parents to fill in their kids activities.
+📅 Play Time is a Rails app for demonstation purpose to create a timetable for parents to fill in their kids activities.
 
-- [x] Setting up Rails
-- [x] Deploy to Heroku
-- [x] create 7-day table
-- [x] apply some styles
-- [x] provide time card
-- [x] enable drag and drop
-- [x] each day can have 4-5 cards
-- [x] printable in daily, weekly
+This app is part of ["Coba-Coba Ngoding" video series](https://www.youtube.com/playlist?list=PLHmn5AHyKRnEXPfH6VHs9cqjViZfu7BV_).
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
